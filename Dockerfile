@@ -3,6 +3,7 @@ FROM python:3.10
 ADD . /patient_survival_predictor
 WORKDIR /patient_survival_predictor
 
+RUN pip install --upgrade pip
 RUN pip install --no-cache-dir -r ./requirements/requirements.txt
 
 COPY . .
