@@ -1,6 +1,6 @@
 FROM python:3.10
 
-ADD ./patient_survival_predictor /patient_survival_predictor
+ADD . /patient_survival_predictor
 WORKDIR /patient_survival_predictor
 
 COPY ./requirements/requirements.txt ./
