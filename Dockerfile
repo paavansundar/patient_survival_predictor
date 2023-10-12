@@ -10,5 +10,5 @@ COPY . .
 
 
 EXPOSE 8001
-CMD["python","./model/trained_models/model.py]
+CMD["python","/patient_survival_predictor/model/trained_models/model.py]
 CMD ["python", "./predict.py"]
