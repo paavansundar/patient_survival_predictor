@@ -1,9 +1,9 @@
 gradio
 xgboost
-tick
+Cmake
 NumPy
 pandas
 matplotlib
 scikit-learn
 joblib
-
+tick
