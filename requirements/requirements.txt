@@ -1,8 +1,9 @@
 gradio
 xgboost
 tick
-scikit-learn
-matplotlib
-joblib
 NumPy
 pandas
+matplotlib
+scikit-learn
+joblib
+
