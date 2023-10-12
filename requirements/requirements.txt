@@ -4,5 +4,5 @@ tick
 scikit-learn
 matplotlib
 joblib
-numpy
+NumPy
 pandas
