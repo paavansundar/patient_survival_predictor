@@ -10,5 +10,7 @@ COPY . .
 
 
 EXPOSE 8001
-CMD["python","/model/trained_models/model.py]
+WORKDIR /patient_survival_predictor/model/trained_models
+CMD["python","./model.py]
+WORKDIR /patient_survival_predictor
 CMD ["python", "./predict.py"]
