@@ -2,7 +2,7 @@
     "family": "sample-fargate-1",
     "containerDefinitions": [
         {
-            "name": "patien-health-predictor",
+            "name": "patient_survival_predictor",
             "image": "994845874816.dkr.ecr.eu-north-1.amazonaws.com/my_ecr:70be3e019a359e2589006c53c4a823ed0db7e04c",
             "cpu": 0,
             "portMappings": [
